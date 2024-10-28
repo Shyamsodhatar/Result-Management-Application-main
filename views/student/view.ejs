@@ -1,0 +1,26 @@
+<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.5.0/font/bootstrap-icons.min.css" rel="stylesheet">
+<a href="/" class="btn btn-danger my-3">
+  <i class="bi bi-box-arrow-right"></i> Logout
+</a>
+<h4 class="text-center text-success mb-4">My Result</h4>
+
+<div class="stuTable container my-4">
+  <table class="table table-bordered table-hover table-striped shadow-sm bg-white" style="border-radius: 10px; overflow: hidden;">
+      <thead class="bg-primary text-white">
+        <tr>
+          <th scope="col">Roll No.</th>
+          <th scope="col">Name</th>
+          <th scope="col">Date of Birth</th>
+          <th scope="col">Score</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><%= one.roll %></td>
+          <td><%= one.name %></td>
+          <td><%= one.dob %></td>
+          <td><%= one.score %></td>
+        </tr>
+      </tbody>
+  </table>
+</div>
